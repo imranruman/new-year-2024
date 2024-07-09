@@ -15,7 +15,6 @@ body{
 .banner-container{
     width: 1320px;
     margin: 0 auto;
-    border: 2px solid red;
     background-color: rgba(0,  0, 0 , 0.5);
     min-height: 600px;
     margin-top: 20px;
@@ -52,7 +51,6 @@ body{
     width: 802.9px;
     height: 806px;
     margin: 0 auto;
-    border: 2pxl solid red;
     margin-top: 90px;
     
 }
@@ -87,4 +85,77 @@ body{
     font-family: inter;
     
 }
+
+.mid-nightparty-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+
+.leftside-content{
+    width: 50%;
+    height: 600px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.rightside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .leftside-content h1{
+        color: white;
+        font-size: 48px;
+    }
+
+    .leftside-content p{
+        color: #FFFFFF;
+        font-size: 18px;
+        
+    }
+
+    #midnight-button{
+color: rgba(255, 255, 255,0.8);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+    }
+
+    .rightside-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.place-date-time{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    padding: 300px;
+    margin-top: 90px;
+    background-color: linear-gradient(180.00deg, rgba(227, 166, 166, 0),rgba(201, 141, 141, 0) 100%);
+    background-blend-mode: overlay;
+    
+}
+
+.time-table{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.color{
+ color: red;
+}
